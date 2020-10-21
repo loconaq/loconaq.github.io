@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCONAQ™ Official Website</title>
+</head>
+<body>
+    <h1 style="text-align: center;">website is under construction</h1>
+    <h3 style="text-align: center;">for order related questions, please send email to <a href="mailto:info@loconaq.com">info@loconaq.com</a></h2>
+
+        <h4 div id="show" style="text-align: center;"></h4>
+
+</body>
+<script type="text/javascript"> 
+    var t = 10;
+    setInterval("refer()", 1000);
+    function refer() {
+        if (t == 0){
+            location = "https://www.aliexpress.com/store/5438188";
+        }
+        document.getElementById('show').innerHTML = "you will be redirected to Good Guy Miguel's Store in " + t + " seconds..."; // 显示倒计时 
+        t--; 
+    } 
+</script>
+<span id="show"></span>
+</html>
